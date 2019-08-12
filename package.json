@@ -1,0 +1,36 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "watch": "",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "chai-http": "^2.0.1",
+    "cryptr": "^4.0.2",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^1.0.0",
+    "mocha": "^6.1.4",
+    "mongoose": "^5.5.2",
+    "multer": "^1.2.0",
+    "nodemon": "^1.18.11",
+    "request": "^2.88.0",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2",
+    "swagger": "^0.7.5",
+    "swagger-jsdoc": "^3.2.9",
+    "swagger-model-validator": "^3.0.10",
+    "swagger-ui-express": "^4.0.2",
+    "uuid": "^3.3.2",
+    "yamljs": "^0.3.0"
+  }
+}
